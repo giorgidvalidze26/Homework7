@@ -1,0 +1,308 @@
+.conteiner {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* ჰედერის დასაწყისი */
+header {
+    width: 1920px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 320px;
+    text-align: center;
+
+}
+
+.headtext {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.headul {
+    display: flex;
+    gap: 50px;
+
+}
+
+
+.Home {
+    color: #DCB47A;
+}
+
+/* li:nth-child(1) { */
+color: #DCB47A;
+}
+
+.imgdiv {
+    padding-left: 250px;
+}
+
+/* სექცია 1 დასაწყისი */
+.sectionone {
+    width: 1920px;
+    width: 100%;
+}
+
+.section_div {
+    position: relative;
+}
+
+.newtext {
+    text-align: center;
+    position: absolute;
+    top: 242px;
+    margin-left: 396px;
+    width: 1128px;
+}
+
+.texture {
+    font-family: Work Sans;
+    font-size: 82px;
+    font-weight: 700;
+    color: white;
+    line-height: 96px;
+}
+
+.newtext2 {
+    position: absolute;
+    text-align: center;
+    top: 565px;
+    margin-left: 668px;
+    width: 583px;
+}
+
+.texture2 {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.search {
+    width: 463px;
+    display: flex;
+    height: 71px;
+    border: solid 1px rgb(255, 255, 255);
+    position: absolute;
+    top: 649px;
+    margin-left: 729px;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 24px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+.search_icon {
+
+    background-color: #525A55;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 401px;
+    top: 10px;
+    border: #525A55 solid 1px;
+    border-radius: 40px;
+}
+
+.searchp {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.search_img {
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+/* სექცია 2 დასაწყისი */
+
+.sectiontwo {
+    width: 1280px;
+    margin-left: 320px;
+    padding-top: 200px;
+}
+
+h2 {
+    margin-bottom: 81px;
+    font-family: Work Sans;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 88px;
+    text-align: left;
+    color: #081323;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 388px;
+    border: solid 2px #DCB47A;
+
+
+
+}
+
+.card_img {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+
+}
+
+.cardp {
+    width: 90%;
+    position: relative;
+
+}
+
+.price {
+    width: 90%;
+
+
+
+}
+
+.vector {
+    position: absolute;
+    margin-left: 179px;
+    margin-top: 230px;
+
+}
+
+/* სექცია 2 დასაწყისი */
+
+.section_end {
+    width: 1280px;
+    margin-left: 320px;
+    padding-top: 200px;
+    padding-bottom: 245px;
+}
+
+h3 {
+    margin-bottom: 67px;
+    color: #081323;
+    font-family: Work Sans;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 88px;
+    text-align: left;
+
+}
+
+.section_end2 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.imgone {
+    margin-bottom: 25px;
+}
+
+.endtext {
+    position: absolute;
+    width: 350px;
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    margin-top: 285px;
+    margin-left: 194px;
+    color: #DCB47A;
+
+}
+
+/* footer-ის დასაწყისი */
+
+footer {
+    width: 1920px;
+    height: 378px;
+    background-color: #262626;
+}
+
+h3 {
+    width: 100%;
+    height: 96.86px;
+    font-family: Work Sans;
+    font-size: 63px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 71px;
+
+}
+
+span {
+    color: #DCB47A;
+    font-family: Playfair Display;
+    font-size: 63px;
+    font-weight: 500;
+    line-height: 82px;
+    text-align: center;
+
+}
+
+.footp {
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2px;
+
+}
+
+.footerdiv {
+    width: max 100%;
+    padding-left: 858px;
+    padding-top: 36px;
+}
+
+.footbutt {
+    width: 205px;
+    height: 64px;
+    background-color: #DCB47A;
+    border: solid 1px #DCB47A;
+    border-radius: 60px;
+}
+
+.buttp {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
